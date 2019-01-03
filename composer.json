@@ -1,0 +1,22 @@
+{
+    "name": "leo/hello",
+    "description": "hello",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lin.leo",
+            "email": "lin.leo@hiero7.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Leo\\Hello\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leo\\Hello\\Tests\\": "tests/"
+        }
+    }
+}
